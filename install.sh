@@ -13,7 +13,7 @@ pkg upgrade -y
 echo "Package alredy install - running tools"
 clear
 sleep 5
-https://github.com/Hax4us/xerosploit
+git clone https://github.com/Hax4us/xerosploit
 cd xerosploit && sudo python install.py
 clear
 sleep 3
